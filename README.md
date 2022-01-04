@@ -22,7 +22,8 @@ Design a basic HTTP web-server application which can listen on a configurable TC
  - vsCode code editor
 
 ## Results
-The code produces the below results when run on the browser
-![Code Results](Screenshot 2022-01-05 002227.png)
+The code produces the below results when run on the browser on localhost
+
+![Code Results](/image/code_results.png)
 
 
