@@ -8,6 +8,7 @@ The Code lies on the "solution" folder >> "server folder" >> "index.js" file
 - [Technologies Used](#technologies)
 - [Code Results](#results)
 - [How it works](#explanation)
+- [What i do](#what-i-do)
 
 
 
@@ -45,6 +46,10 @@ The server side code displays the below results on the browser
 ## Explanation
 - ### On The Server side
 - User details are received from the client side through a POST request on the "/register" route and are then stored to the database on the serverside
-- The home "/" route on the GET request retrieves data from the database.The data is then being fetch on the client side and displayed on the home page
+- The home "/" route on the GET request retrieves data from the database.The data is then being fetched on the client side and displayed on the home page
+
+## What i do
+- I create fullstack web applications which can perform the (CRUD) operations i.e CREATE READ UPDATE and DELETE data with nodejs,mysql db and reactjs
+
 
 
