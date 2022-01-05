@@ -1,0 +1,27 @@
+@mixin primarystyle{
+font:1em sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column
+}
+body{
+    background: black;
+}
+.users{
+    @include primarystyle();
+    margin: 10em;
+}
+.users>p{
+    padding: 1em;
+    color: blanchedalmond;
+}
+.users>button{
+width: 12em;
+height: 3em;
+background:steelblue;
+color: white;
+font-weight: bold;
+border: none;
+cursor: pointer;
+}

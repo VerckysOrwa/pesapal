@@ -1,0 +1,99 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.formHolder {
+  height: 100vh;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: #2b2a2a;
+}
+
+.formHolder form::before {
+  content: "SIGNUP";
+  font-size: 3em;
+  margin: .5em;
+  color: aliceblue;
+}
+
+.formHolder form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background: transparent;
+  border: 0.2px solid #645f5f;
+  width: 30%;
+  -webkit-box-shadow: .3px 1px .2px grey;
+          box-shadow: .3px 1px .2px grey;
+  font: 1em sans-serif;
+}
+
+.formHolder form > label {
+  color: white;
+}
+
+.formHolder form > input {
+  height: 2.5em;
+  width: 80%;
+  padding: 1em;
+  margin: .9em;
+  background: rgba(240, 215, 169, 0.4);
+  color: white;
+}
+
+.formHolder form > input::-webkit-input-placeholder {
+  color: rgba(240, 248, 255, 0.6);
+}
+
+.formHolder form > input:-ms-input-placeholder {
+  color: rgba(240, 248, 255, 0.6);
+}
+
+.formHolder form > input::-ms-input-placeholder {
+  color: rgba(240, 248, 255, 0.6);
+}
+
+.formHolder form > input::placeholder {
+  color: rgba(240, 248, 255, 0.6);
+}
+
+.formHolder form > button {
+  margin: 1em;
+  width: 12em;
+  height: 2.5em;
+  background: #2121c9;
+  cursor: pointer;
+  color: white;
+  border: none;
+}
+
+.formHolder > p {
+  color: white;
+  position: absolute;
+  margin-top: 23em;
+  font: 1em sans-serif;
+  font-size: 1.2em;
+  color: springgreen;
+}
+/*# sourceMappingURL=signup.css.map */
