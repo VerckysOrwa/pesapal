@@ -19,11 +19,17 @@ Design a basic HTTP web-server application which can listen on a configurable TC
 ### Technologies
  The following Technologies and programming languages were used to meet the above objectives.
  - Javascript Progranning Language
+ - React js Framework(for the home and signup pages)
  - Node js runtime environment
+ - Axios Library
+ - Express js Framework
+ - Cors middleware(to secure the routes on the web-server)
+ - bcrypt library to encrypt the data
+ - mysql db
  - vsCode code editor
 
 ## Results
-The code produces the below results when run on the browser on localhost
+The client side code produces the below results when run on the browser on localhost
 
 ![Code Results](/image/code_results.png)
 
