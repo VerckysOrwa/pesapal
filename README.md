@@ -1,7 +1,7 @@
-# pesapal
-This Is The Solution to Pesapal Problem One and Problem 3.
--- The Code for problem one lies on the "problem1solution" folder >> "server folder" >> "index.js" file
--- The Code for problem 3 lies on the "PROBLEM 3" folder >>  "scrapper.js" file
+# PESAPAL
+###### These are The Solutions to Pesapal Problem One and Problem 3.
+###### The Code for problem one lies on the "problem1solution" folder >> "server folder" >> "index.js" file.
+###### The Code for problem 3 lies on the "PROBLEM 3" folder >>  "scrapper.js" file
 
 # Table Of Contents
 - [Problem Title](#problem-title)
