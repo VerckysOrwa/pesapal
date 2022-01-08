@@ -66,7 +66,9 @@ Write an application which, when given a web page will download the text on it a
  The following Technologies and programming languages were used to meet the above objectives.
  - Javascript Programming Language.
  - Node js runtime environment.
- - puppeteer library
+ - Cheerio library
+ - Axios library
+ - express framework
 
 
 ## What i do
